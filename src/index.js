@@ -10,6 +10,8 @@ const getCommand = (contribution) => {
   );
 };
 
+//change and add gitlab option
+
 export default async (input) => {
   // Returns contribution graph html for a full selected year.
   const res = await axios.get(
